@@ -5288,7 +5288,7 @@ window.__require = function t(e, o, n) {
 				}, t.prototype.canShowVideo = function () {
 					return this._hasVideo
 				}, t.prototype.createInsertAd = function (t) {
-					return n(this, void 0, void 0, function () {
+					/*return n(this, void 0, void 0, function () {
 						var t = this;
 						return i(this, function (e) {
 							return [2, new Promise(function (e) {
@@ -5305,9 +5305,9 @@ window.__require = function t(e, o, n) {
 								}) : (console.error("\u5ba2\u6237\u7aef\u4e0d\u652f\u6301\u63d2\u5c4f\u5e7f\u544a"), void e(!1))
 							})]
 						})
-					})
+					})*/
 				}, t.prototype.showInsertAd = function (t) {
-					return n(this, void 0, void 0, function () {
+					/*return n(this, void 0, void 0, function () {
 						var e, o = this;
 						return i(this, function (n) {
 							switch (n.label) {
@@ -5324,7 +5324,7 @@ window.__require = function t(e, o, n) {
 									}), [2]
 							}
 						})
-					})
+					})*/
 				}, t.prototype.destroyInsertAd = function () { }, t.prototype.gotoMiniGame = function (t, e, o, n, i) { }, t.prototype.getShareInfo = function (t, e) { }, t.prototype.gameClub = function (t, e) { }, t.prototype.showModal = function (t, e, o, n, i, a) {
 					void 0 === n && (n = !0), void 0 === i && (i = "\u53d6\u6d88"), void 0 === a && (a = "\u786e\u5b9a")
 				}, t.prototype.openCustomerServiceConversation = function (t) { }, t.prototype.getMenuButtonBoundingClientRect = function () { }, t.prototype.vibrateShort = function (t, e, o) { }, t.prototype.vibrateLong = function (t, e, o) { }, t.prototype.registerOnShow = function () { }, t.prototype.registerOnHide = function () { }, t.prototype.getClipboardData = function (t) { }, t.prototype.setClipboardData = function (t, e) { }, t.xwwFb = null, t
